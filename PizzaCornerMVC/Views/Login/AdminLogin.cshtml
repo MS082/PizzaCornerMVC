@@ -1,0 +1,33 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container">
+    <h1> Admin Login </h1>
+    <hr/>
+    <div class="row">
+        <form action="LoginCheck" method="post">
+            <div class="col-lg-12 form-group pr-lg-12">
+
+
+                <input id="Name" name="Name" type="text" class="form-control" placeholder="Enter Name " required="" />
+
+            </div>
+            <div class="col-lg-12 form-group pl-lg-12">
+
+                <input id="Password" name="Password" type="password" class="form-control" placeholder="Enter Password" required="" />
+
+
+            </div>
+
+            <div class="col-lg-12 form-group pl-lg-12">
+
+                <input id="btn" type="submit" value="Login" class="btn btn-primary col-md-12" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
